@@ -1,0 +1,17 @@
+@import "../../scss/variables.scss";
+
+.search-input {
+  @include input;
+  margin-top: .5rem;
+  min-width: 5rem;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search-svg {
+  @include svg-icon;
+}

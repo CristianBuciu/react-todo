@@ -1,0 +1,26 @@
+@import "../../scss/variables.scss";
+
+.form {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+
+  border-bottom: 1px solid rgba(77, 77, 77, 0.733);
+
+  &__input {
+    @include input;
+  }
+  &__button {
+    @include button;
+  }
+}
+.button-container {
+  text-align: center;
+}
+
+.list-svg {
+  @include svg-icon;
+}
